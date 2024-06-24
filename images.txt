@@ -1,7 +1,19 @@
 #支持私库
 #支持指定架构
+#tag可带可不带
+ #多架构-需要在images.txt中用 --platform=xxxxx手动指定镜像架构 指定后的架构会以前缀的形式放在镜像名字前面
 nginx
 1panel/maxkb
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0 #tag可带可不带
-xhofe/alist:latest
---platform=linux/arm64 xiaoyaliu/alist  #多架构-需要在images.txt中用 --platform=xxxxx手动指定镜像架构 指定后的架构会以前缀的形式放在镜像名字前面
+ollama/ollama
+mysql
+langchain/langchain
+pytorch/pytorch
+tensorflow/tensorflow
+wordpress
+alpine
+ubuntu
+redis
+mongo
+docker
+php
+xiaoyaliu/alist
